@@ -1,0 +1,33 @@
+citys = ["北京","上海","广东"]
+#将中国所有省会城市添加到上述列表中
+citys.append("兰州")
+citys.append("西宁")
+citys.append("西安")
+citys.append("郑州")
+citys.append("济南")
+citys.append("太原")
+citys.append("合肥")
+citys.append("长沙")
+citys.append("武汉")
+citys.append("南京")
+citys.append("成都")
+citys.append("贵阳")
+citys.append("昆明")
+citys.append("哈尔滨")
+citys.append("长春")
+citys.append("沈阳")
+citys.append("石家庄")
+citys.append("杭州")
+citys.append("南昌")
+citys.append("广州")
+citys.append("福州")
+citys.append("台北")
+citys.append("海口")
+print(citys)
+#广东成为第二大发达城市，将广东排在上海前面
+citys.remove("广东")
+citys.insert(1,"广东")
+print(citys)
+#[36710.36,35427.10,29863.23,29667.39,27665.36,27650.45,27620.38,25369.20]这是中国GDP排名前8的城市的GDP数值，请统计前8城市的GDP总和，平均GDP。
+GDP = [36710.36,35427.10,29863.23,29667.39,27665.36,27650.45,27620.38,25369.20]
+print("GDP总和为：",sum(GDP),"平均GDP为：",sum(GDP)/8)
